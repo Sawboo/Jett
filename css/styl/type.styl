@@ -7,13 +7,13 @@
 // Adjust the overall font size and line height here. Headings are set
 // in ems and will be resized accordingly with the body copy.
 // Common Sizes: 100% = 16px, 112.5% = 18px, 118.8 = 19px, 125% = 20px
-$font-size = 112.5
+$font-size = 125
 $line-height = 1.625
 $weight = normal
 // Set the default font stack for the body copy
 $font-family = Georgia, serif
 // Set type to dark grey
-$body-color = #444
+$body-color = rgb(80, 80, 80)
 $heading-color = #222
 
 // converts a percentage value to a pixel value
@@ -42,24 +42,24 @@ $measure = ($font-base * $line-height)
 //     $major_second = (9/8.0)
 //     $minor_second = (16/15.0)
 //     $golden = 1.618
-$ratio = $major_second
+$ratio = $minor_second
 
 // massive type
 .mega
     ms(10)
 // h1-h6
 .alpha
-    ms(8)
+    ms(12)
 .beta
     ms(6)
 .gamma
-    ms(5)
-.delta
-    ms(4)
-.epsilon
     ms(3)
-.zeta
+.delta
     ms(2)
+.epsilon
+    ms(1)
+.zeta
+    ms(1)
 
 // this is the amount paragraphs will be indented
 $indent-val = 1.5em
@@ -75,12 +75,14 @@ heading-global()
     line-height 1
     margin-top 0
     margin-bottom ($font-base / $measure * $ratio) rem
+    font-weight $weight
     color $heading-color
 
 // associate h1-h6 tags with their appropriate greek heading
 h1
     @extends .alpha
     heading-global()
+    font-weight 600
 h2
     @extends .beta
     heading-global()

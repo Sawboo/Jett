@@ -10,20 +10,20 @@ img,video,audio,embed,object,input,iframe{max-width:100%}
 .chromeframe p:before,.chromeframe p:after{content:"";display:table}
 .chromeframe p:after{clear:both}
 .chromeframe p a{color:#3a95fb}
-.mega{font-size:3.65323615365196em}
-.alpha,h1{font-size:2.8865075781941414em}
-.beta,h2{font-size:2.2806973457336426em}
-.gamma,h3{font-size:2.0272865295410156em}
-.delta,h4{font-size:1.802032470703125em}
-.epsilon,h5{font-size:1.601806640625em}
-.zeta,h6{font-size:1.423828125em}
-h1{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6923076923076923rem;color:#222}
-h2{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6923076923076923rem;color:#222}
-h3{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6923076923076923rem;color:#222}
-h4{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6923076923076923rem;color:#222}
-h5{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6923076923076923rem;color:#222}
-h6{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6923076923076923rem;color:#222}
-body{font:normal 112.5%/1.625 Georgia,serif;word-wrap:auto;color:#444}
+.mega{font-size:2.3834017232354148em}
+.alpha,h1{font-size:2.711781516214516em}
+.beta,h2{font-size:1.84112109739369em}
+.gamma,h3{font-size:1.517037037037037em}
+.delta,h4{font-size:1.4222222222222223em}
+.epsilon,h5{font-size:1.3333333333333333em}
+.zeta,h6{font-size:1.3333333333333333em}
+h1{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6564102564102564rem;font-weight:normal;color:#222;font-weight:600}
+h2{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6564102564102564rem;font-weight:normal;color:#222}
+h3{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6564102564102564rem;font-weight:normal;color:#222}
+h4{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6564102564102564rem;font-weight:normal;color:#222}
+h5{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6564102564102564rem;font-weight:normal;color:#222}
+h6{text-rendering:optimizeLegibility;line-height:1;margin-top:0;margin-bottom:.6564102564102564rem;font-weight:normal;color:#222}
+body{font:normal 125%/1.625 Georgia,serif;word-wrap:auto;color:#505050}
 p{margin:0 0 1.5em;}
 p + p{text-indent:1.5em;margin-top:-1.5em}
 .small{text-indent:0}
